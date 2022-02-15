@@ -8,7 +8,7 @@ public class X2_String01 {
         
         // 1- equals() ==> Compare the Strings with cases and it returns boolean 
         // 2- equalsIgnoreCase() ==> Compare the Strings without cases and it returns boolean
-        // 3- length() ==> the counts(size) of characters in a String and it returns int
+        // 3- length() ==> the counts(size) of characters in a String, and it returns int
         
         String str1 = "";
         System.out.println(str1.length()); //0 ==> for empty Strings the length() returns 0

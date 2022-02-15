@@ -1,4 +1,4 @@
-package _Javax;
+package day00_w0_prep;
 
 public class Lesson02_Operators {
 	public static void main(String[]args) {	

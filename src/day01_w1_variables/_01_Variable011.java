@@ -1,4 +1,4 @@
-package day01_w1_slym_variables;
+package day01_w1_variables;
 
 public class _01_Variable011 {
 
@@ -26,7 +26,7 @@ public class _01_Variable011 {
                 			note: int`s whole numbers from -2,147,483,648 to 2,147,483,647 
               b)double ==> 0.0
               c)float==> 0.0
-                			note: When you assign a value for a float variable use “f” or “F” at the end.. float x=23.3f:
+                			note: When you assign a value for a float variable use ï¿½fï¿½ or ï¿½Fï¿½ at the end.. float x=23.3f:
               d)char==> nothing or '\u0000'
               e)byte==> 0 
                 			note: byte`s are whole numbers from -128 to 127

@@ -1,4 +1,4 @@
-package _Javax;
+package day00_w0_prep;
 
 public class Lesson01_Variables_Data_Types_Literals_Scanner {
 
