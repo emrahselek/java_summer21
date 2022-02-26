@@ -17,8 +17,8 @@ public class InterviewQuestion01 {
 		strB.append(str);
 		System.out.println(strB.reverse());
 
-		String revStr = "";
 		//2.Way: By using String Class
+		String revStr = "";
 		for(int i=str.length()-1; i>=0; i--) {
 			revStr = revStr + str.charAt(i);
 		}
