@@ -5,7 +5,7 @@ public class _01_Variable {
 	/**
 	  1) Project ==> Package ==> Class ==> Variables + Methods
 
-	  2) How to create "Variables"
+	  2) How to crpusheate "Variables"
 	     a)Typing "Data Type"
 	     b)Typing a name for variable
 	     c)"="
