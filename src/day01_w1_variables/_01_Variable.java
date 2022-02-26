@@ -10,6 +10,8 @@ public class _01_Variable {
 	     b)Typing a name for variable
 	     c)"="
 	     d)Value and ";"
+
+
 	  
 	  3) Data Types:
 	     a) "int" ==> integer: Whole numbers like 2, 454 , -47, 0 
