@@ -1,6 +1,6 @@
-package day13_w4_ahmt_loops;
+package day13_w4_loops;
 
-public class X1_DoWhileLoops01 {
+public class _01_DoWhileLoops01 {
 
 	public static void main(String[] args) {
 			

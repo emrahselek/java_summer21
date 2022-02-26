@@ -1,8 +1,7 @@
-package day13_w4_ahmt_loops;
+package day13_w4_loops;
 
-//Tech.: Ahmet
 
-public class X7_MethodCreation01_Ahmt {
+public class _07_MethodCreation01_Ahmt {
 
     public static void main(String[] args) {
        

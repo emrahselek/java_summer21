@@ -1,6 +1,6 @@
-package day13_w4_ahmt_loops;
+package day13_w4_loops;
 
-public class X8_MethodCreation01_Slym {
+public class _08_MethodCreation01_Slym {
 	
 	/*
 	 	If a method is static everything inside the method must be static

@@ -1,8 +1,8 @@
-package day13_w4_ahmt_loops;
+package day13_w4_loops;
 
 import java.util.Scanner;
 
-public class X6_ContinueAndBreake {
+public class _06_ContinueAndBreake {
 	
     public static void main(String[] args) {
         

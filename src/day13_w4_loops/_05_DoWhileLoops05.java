@@ -1,8 +1,8 @@
-package day13_w4_ahmt_loops;
+package day13_w4_loops;
 
 import java.util.Scanner;
 
-public class X5_DoWhileLoops05 {
+public class _05_DoWhileLoops05 {
 	
     public static void main(String[] args) {
         
