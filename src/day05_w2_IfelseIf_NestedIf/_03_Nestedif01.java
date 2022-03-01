@@ -11,7 +11,6 @@ public class _03_Nestedif01 {
 		 if the age is negative, and gender is different from M and F give error message
 		 if the age is greater then 65 and gender is male print "retired" otherwise "need to work"
 		 if the age is greater than 60 and gender is female print "retired' otherwise "need to work"
-		  
 		 */
 		
 		Scanner scan = new Scanner(System.in);

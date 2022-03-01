@@ -1,4 +1,4 @@
-package day14_w4_slym_methodoverloading_construction;
+package day14_w4_methodoverloading_construction;
 
 
 /*
@@ -27,7 +27,7 @@ package day14_w4_slym_methodoverloading_construction;
 	Note: Default constructor is constructor without parameters like "public Constructors01(){ }" 
 */
 
-public class X3_Constructors01 {
+public class _03_Constructors01 {
 	
 	public static void main(String[] args) {
 		
@@ -39,19 +39,19 @@ public class X3_Constructors01 {
 	
 	//How can we create a constructor?
 	//Access Modifier   +  Class Name() + { }
-	public X3_Constructors01() {
+	public _03_Constructors01() {
 		
 	}
 	
-	public X3_Constructors01(int a) {
+	public _03_Constructors01(int a) {
 	
 	}
 	
-	public X3_Constructors01(int a, String s) {
+	public _03_Constructors01(int a, String s) {
 		
 	}
 	
-	public X3_Constructors01(char a, double d, String s) {
+	public _03_Constructors01(char a, double d, String s) {
 		
 	}
 

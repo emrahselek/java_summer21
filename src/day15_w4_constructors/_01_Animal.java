@@ -1,6 +1,6 @@
-package day15_w4_slym_constructors;
+package day15_w4_constructors;
 
-// click ==> Source + Generate constructor using Fields.. and choose Last member and that click Generate
+// click ==> Source + Generate constructor using Fields. and choose Last member and that click Generate
 
 
 /*
@@ -13,7 +13,7 @@ not with objects
 
 
 
-public class X1_Animal {
+public class _01_Animal {
 
 String name;
 int age;
@@ -23,11 +23,11 @@ char gender;
 
 static int counter;
 
-public X1_Animal() {
+public _01_Animal() {
 	counter++;
 }
 
-public X1_Animal(String name, int age, boolean isCarnivorous, String specy, char gender) {
+public _01_Animal(String name, int age, boolean isCarnivorous, String specy, char gender) {
 	this.name = name;
 	this.age = age;
 	this.isCarnivorous = isCarnivorous;
@@ -36,20 +36,20 @@ public X1_Animal(String name, int age, boolean isCarnivorous, String specy, char
 	counter++;
 }
 
-public X1_Animal(String name, int age, char gender) {
+public _01_Animal(String name, int age, char gender) {
 	this.name = name;  
 	this.age = age;
 	this.gender = gender;
 	counter++;
 }
 
-public X1_Animal(String specy) {
+public _01_Animal(String specy) {
 	/*
 	 	1) this() is used for constructor call
 	 	2) this() must be in the first line inside the constructor
 	 	3) In a constructor, how many times can "this()" be used? 
 	 	   Answer: At most once. Because this() must be in the first line, if you use 
-	 	           more than once where will you put it? You need to put it into second, third, .. etc
+	 	           more than once where will you put it? You need to put it into second, third, etc
 	 	           lines but it is not allowed.
 	 	           
 	 	What is the difference between "this()" and "this"?           

@@ -19,13 +19,13 @@ public class _01_Question01 {
 		
 		/*
 		 1- & and && have similar functionally
-		 2- & java will check all conditions
+		 2- & java will check all conditions (kodlarda sakin tek  & kullanma, sadece ne ise yaradigini bilmek yeter)
 		 3- && java will not check all conditions if the first one is false.
 		 */
 		
 		if(year%100==0 && year%400==0) {
 			System.out.println(year + " is a leap year");
-		}else if(year%100 !=0 & year%4 ==0) {
+		}else if(year%100 !=0 && year%4 ==0) {
 			System.out.println(year + " is a leap year");
 		}else {
 			System.out.println(year + " is not leap year");

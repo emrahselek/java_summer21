@@ -1,11 +1,11 @@
-package day14_w4_slym_methodoverloading_construction;
+package day14_w4_methodoverloading_construction;
 
 	/*
  	Whole numbers are accepted as int for Java as default
  	Decimal numbers are accepted as double for Java as default
     */
 
-public class X1_MethodOverloading01 {
+public class _01_MethodOverloading_varargs {
 
 public static void main(String[] args) {
 	
