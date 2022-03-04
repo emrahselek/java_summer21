@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Day01_Palindrome {
     //Palindrome is reading characters backward as same forward.
+    // madan -> madam
+    // 12321 -> 12321
     public static void main(String[] args) {
 
         //1.way
