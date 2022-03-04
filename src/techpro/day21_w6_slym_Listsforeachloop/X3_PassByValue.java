@@ -3,8 +3,10 @@ package techpro.day21_w6_slym_Listsforeachloop;
 import java.util.ArrayList;
 
 		import java.util.List;
-		
-		public class X3_PassByValue {
+
+import static java.util.List.*;
+
+public class X3_PassByValue {
 			
 			/*
 			 	1)If you use a variable inside a method, Java does not use the original variable inside the method.
@@ -53,7 +55,7 @@ import java.util.ArrayList;
 				list.add("Wooow");
 				list.add("Sorry");
 				
-				List<String> list1 = List.copyOf(list);
+				List<String> list1 = copyOf(list);
 				
 				System.out.println("Before method call: " + list);//
 				

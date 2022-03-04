@@ -12,6 +12,7 @@ public class Day05_Fibonacci {
         scan.close();
     }
 
+
     public static void fibonacci(int number) {
         int fibo1 = 1;
         int fibo2 = 1;
