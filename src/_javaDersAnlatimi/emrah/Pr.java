@@ -8,7 +8,7 @@ public class Pr {
 
         int fib1=1;
         int fib2=1;
-        int fibresult=0;
+        int fibresult;
 
         for(int i=1; i<number-1; i++){
             fibresult=fib1+fib2;

@@ -16,7 +16,7 @@ public class Day05_Fibonacci {
     public static void fibonacci(int number) {
         int fibo1 = 1;
         int fibo2 = 1;
-        int fibonacci = 0;
+        int fibonacci;
         System.out.print(fibo1 + " ");
         System.out.print(fibo2 + " ");
 
