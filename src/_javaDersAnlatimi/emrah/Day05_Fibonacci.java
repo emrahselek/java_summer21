@@ -2,7 +2,7 @@ package _javaDersAnlatimi.emrah;
 //fibonacci dizisi her sayinin kendisinden onceki sayi ile toplanmasi ile elde edilir.
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Day05_Fibonacci {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
