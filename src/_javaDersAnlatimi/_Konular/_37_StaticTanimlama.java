@@ -40,7 +40,6 @@ public class _37_StaticTanimlama {
 
         Araba11.bilgi();
 
-
     }
 }
 
