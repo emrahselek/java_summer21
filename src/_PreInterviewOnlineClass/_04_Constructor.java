@@ -80,7 +80,6 @@ class MethodAndConstructor extends Exto{
         return 10;
     }
 }
-
 class Exto{
     public Exto(){
     }
