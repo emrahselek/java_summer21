@@ -2,7 +2,8 @@ package _PreInterviewOnlineClass;
 
 public class _08_Override {
     /*
-     * Extends edilen methodun icerigini degistirerek alt classlarda (sub class) kullanabiliriz.
+     * Extends edilen methodun icerigini degistirerek alt
+       classlarda (sub class) kullanabiliriz.
      * Override edilecek methodlarin ikisininde ayni olmasi gerekiyor.
      * Diger class'dan alinan methodu eziyoruz.
 
@@ -52,5 +53,5 @@ class Dede {
 
 abstract class Cousin {
 
-    public abstract void bilgi ();
+    public abstract void bilgi();
 }
