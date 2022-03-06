@@ -17,7 +17,7 @@ public class _09_ThisAndSuper {
     }
 }
 
-class Arabam extends Motor{
+class Arabam extends Motorm{
     public int sayi = 50;
 
     public Arabam(){
@@ -43,18 +43,18 @@ class Arabam extends Motor{
 
 }
 
-class Motor{
+class Motorm{
     public int sayi = 20;
 
     public void calistir(){
         System.out.println("calisti.");
     }
 
-    public Motor(){
+    public Motorm(){
         System.out.println("Motor 1. constructor");
     }
 
-    public Motor(int nnnn){
+    public Motorm(int nnnn){
         System.out.println("Motor 2. constructor");
     }
 

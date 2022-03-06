@@ -1,14 +1,15 @@
 package _PreInterviewOnlineClass;
 
-public class _49_Inheritance_Genel_Isleyis {
+public class _11_Inheritance_Genel_Isleyis {
     /*
+    Inheritance : Miras Alma. Bir class'i miras olarak almak istiyorsak EXTENDS kullanmamiz gerekir.
+
     Extend mantiginda ilk calisan son extend yapilan classtir. Asagidaki ornekte son class olan arac classi
     motor classina extend oldugu icin ve araba15 classida motor classina extend oldugu icin
     calisma oncelici arac , motor , araba oluyor.
      */
 
     public static void main(String[] args) {
-
         Araba15 nesne = new Araba15();
         nesne.calistir();
         nesne.durdur();
@@ -17,7 +18,6 @@ public class _49_Inheritance_Genel_Isleyis {
 }
 
 class Araba15 extends Motor {
-
     String isim = "Toyota";
     int maxHiz = 200;
 
@@ -28,11 +28,9 @@ class Araba15 extends Motor {
 }
 
 class Motor extends Arac{
-
     public Motor(){
         System.out.println("Motor");
     }
-
     public void calistir (){
         System.out.println("Motor Calisti.");
     }
