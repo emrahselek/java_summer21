@@ -1,7 +1,10 @@
 package _javaDersAnlatimi.emrah;
 
+import _PreInterviewOnlineClass.pr.OzClass;
+
 public class Pr {
     public static void main(String[] args){
+
 
         //I want to see first 6 fibonacci numbers.
         int number = 6;
