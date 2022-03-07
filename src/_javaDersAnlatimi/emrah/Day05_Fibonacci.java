@@ -1,31 +1,33 @@
 package _javaDersAnlatimi.emrah;
-//fibonacci dizisi her sayinin kendisinden onceki sayi ile toplanmasi ile elde edilir.
-import java.util.Scanner;
 
 public class Day05_Fibonacci {
-    public static void main(String[] args) {
+    // Fibonacci's numbers are a sequence of whole numbers where every number is
+    // the sum of the previous two numbers. It starts from 0 and 1 as the first two numbers.
+    // The Formula of Fibonacci Number is "Fn = Fn-1 + Fn-2"
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("How many fibonacci number do you want to see?");
-        int number = scan.nextInt();
-        fibonacci(number);
-        scan.close();
-    }
+    public static void main(String[] args){
 
+        int range = 7;// 0.1.1.2.3.5.8
 
-    public static void fibonacci(int number) {
-        int fibo1 = 1;
-        int fibo2 = 1;
-        int fibonacci;
-        System.out.print(fibo1 + " ");
-        System.out.print(fibo2 + " ");
+        int fibo1=0;
+        int fibo2=1;
+        int fiboN;
+        System.out.print(fibo1+" ");
+        System.out.print(fibo2+" ");
 
-        for (int i = 1; i < number-1; i++) {
-            fibonacci = fibo1 + fibo2;
-            fibo1 = fibo2;
-            fibo2 = fibonacci;
-            System.out.print(fibonacci + " ");
+        for (int i=1; i<range-1; i++){
+            // Fn = Fn-1 + Fn-2
+            fiboN = fibo1+fibo2;
+            fibo1=fibo2;
+            fibo2=fiboN;
+            System.out.print(fiboN+" ");
         }
+
+
+
+
+
+
 
     }
 
