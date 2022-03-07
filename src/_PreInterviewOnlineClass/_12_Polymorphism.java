@@ -1,6 +1,6 @@
 package _PreInterviewOnlineClass;
 
-public class _50_Polymorphism {
+public class _12_Polymorphism {
     /*
         Bir nesnenin birden fazla farkli nesneymis gibi davranabilmesi
         Classlar miras aldiklari classin tum ozelliklerini tasidigi icin miras alinan classtan miras alan
@@ -10,19 +10,17 @@ public class _50_Polymorphism {
     public static void main(String[] args) {
 
         Hayvan hayvan1 = new Hayvan();
-        Kedi kedi = new Kedi(); //--> Kedi nesnesidir
+        Kedi kedi = new Kedi();
         Hayvan kedi2 = new Kedi();
+
         hayvan1.konus();
         kedi.konus();
         kedi2.konus();
 
-
     }
-
 }
 
 class Kedi extends Hayvan {
-
     public void konus (){
         System.out.println("Miyav");
     }
@@ -30,20 +28,13 @@ class Kedi extends Hayvan {
 }
 
 class Kopek extends Hayvan{
-
     public void konus (){
         System.out.println("Hav Hav");
     }
 
 }
 
-class At {
-
-
-}
-
 class Hayvan {
-
     public void konus (){
         System.out.println("Hayvan konusuyor...");
     }
