@@ -64,8 +64,8 @@ class MethodAndConstructor extends Exto{
     /**
      Arasindaki farklar:
      1- Constructor class ismiyle ayni olmak zorunda. Method istedigi ismi alabilir.
-     2- Const.'da return type yoktur. Ama method'da olmak zorunda(enkotu void kullaniri:D).
-     3- Const. inheritance olamaz. Yani baska class'dan miras alamiyoruz. Amam methodlar miras alinabilir.
+     2- Const.'da return type yoktur. Ama method'da olmak zorunda(en kotu void kullaniri:D).
+     3- Const. inheritance olamaz. Yani baska class'dan miras alamiyoruz. Ama methodlar miras alinabilir.
      4- Inheritancede constructor'i cagirmak icin super() kullaniriz. ama method'da kullanamayiz super().
      */
     public MethodAndConstructor(){
