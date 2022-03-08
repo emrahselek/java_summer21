@@ -8,17 +8,15 @@ public class _04_Constructor {
            nesne olusturmak icinde const. ihtiyacimiz var.
          * Javada bir nesne olusturulurken kullanilan yapilar constructordur.
          * Her class'in default constructor'u vardir.
-         *
-
 
          Constructor: Class ile ayni isimde olmak zorunda,
          ornegi ->  CarDesign honda = new CarDesign();
 
          CarDesign   -> Class Name
-         honda       -> Nesene Adi
+         honda       -> Nesne'nin Adi
          CarDesign() -> Constructor
-
          */
+
         Book book = new Book();
         System.out.println(book.bookName);
 
@@ -29,17 +27,18 @@ public class _04_Constructor {
         System.out.println(emty.made);
 
     }
-
 }
 
 class Book{
-    //Her class'in default constructor'i vardir. Ornegi: Book classi gibi. Burda constructor gizlidir. Like " public book (){} "
+    // Her class'in default constructor'i vardir. Ornegi: Book class'i gibi.
+    // Burda constructor gizlidir. Like "public book (){}"
+
     int bookprice=100;
     String bookName="Noone";
 }
 
 class Pen{
-    //Kendimiz constructor olusturabiliriz biliriz. Ve defaul const. otomatikmen iptal olur.
+    //Kendimiz constructor olusturabiliriz. Ve default const. otomatikmen iptal olur.
     //Iki tur constructor var: Parametli ve parametsiz.
 
     String made = "An221";
@@ -59,14 +58,12 @@ class Pen{
         price=num;
         made=name;
     }
-
-
 }
 
 class MethodAndConstructor extends Exto{
     /**
      Arasindaki farklar:
-     1- Constructor class ismiyle ayni olmak zorunda, ama method da degil. Method istedigi ismi alabilir.
+     1- Constructor class ismiyle ayni olmak zorunda. Method istedigi ismi alabilir.
      2- Const.'da return type yoktur. Ama method'da olmak zorunda(enkotu void kullaniri:D).
      3- Const. inheritance olamaz. Yani baska class'dan miras alamiyoruz. Amam methodlar miras alinabilir.
      4- Inheritancede constructor'i cagirmak icin super() kullaniriz. ama method'da kullanamayiz super().

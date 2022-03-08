@@ -7,8 +7,8 @@ public class _02_Object {
 
      Bir araba fabrikasini dusunelim, bu arabanin oncelikle tasarimi cizilir ve o tasarima uygun bir arac uretilir.
      Iste CLASS burda bizim tasarimimiz, OBJECT ise o tasarimdan urettigimiz arabadir.
-     Araba clasindan bir nesne olusturdugumuzda, artik elimizde somut bir Araba vardir.
-     NEW kelimesi ile belirli bir classtan nesne olusturabiliriz.
+     Araba class'indan bir nesne olusturdugumuzda, artik elimizde somut bir Araba vardir.
+     NEW kelimesi ile belirli bir class'tan nesne olusturabiliriz.
      */
 
     public static void main(String[] args) {

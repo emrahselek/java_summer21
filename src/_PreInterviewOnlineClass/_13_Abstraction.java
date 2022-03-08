@@ -1,15 +1,15 @@
 package _PreInterviewOnlineClass;
 
 public class _13_Abstraction {
-    /*
+    /**
         * Abstraction ( Soyutlama ):
         * Abstract classlardan nesne ( Object ) olusturulamaz.
         * Abstract classlar extends olabilir fakar object olusturulamaz.
         * Genel amaci bir cok nesneyi ayni baslik altinda barindirmaktir.
         * Abstract sadece classlarda kullanilmaz methodlardada kullanilir.
-        * Abstract medhotlar olusturulabilir sadece abstract classlarda olusturulabilir.
+        * Abstract medhotlari sadece abstract classlarda olusturulabilir.
         * Abstract method olusturuldugunda extends edilen classlardada kullanilmak zorundadir.
-        * Abstract methodlarda body bos olmak zorundadir.
+        * Abstract methodlarda body kullanilmaz.
         * Eger bir abstract class miras alinirsa o class icerisindeki abstract methodlar (override)
           class'a eklenmek zorundadir.
         * Abstract class neyi yaptiginizla ilgilenir nasil yaptiginizla ilgilenmez.
@@ -33,8 +33,8 @@ abstract class Canli {
     String isim = "Mehrhaba";
     int deneme = 3213;
 
-    public abstract  void konus (); //--> abstract method
-    public abstract void solunum(); //-->abstract meyhod
+    public abstract void konus (); //--> abstract method
+    public abstract void solunum();//--> abstract method
 
     public void bilgiYazdir (){
         System.out.println("Bilgiler.");
@@ -50,7 +50,6 @@ class Kus extends Canli {
 
     @Override
     public void solunum() {
-
     }
 }
 

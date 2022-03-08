@@ -1,8 +1,8 @@
 package _PreInterviewOnlineClass;
 public class _07_Overload {
-    /*
+    /**
         Overload (Overloading) --> Bir methodun imzasi degistirilerek ayni isimde yeni bir method
-        olusturulmasidir.
+                                   olusturulmasidir.
         toplama (int..)
         toplama (int.., int...)
         toplama (int..., int..., int...)

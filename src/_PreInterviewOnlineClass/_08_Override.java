@@ -1,20 +1,19 @@
 package _PreInterviewOnlineClass;
 
 public class _08_Override {
-    /*
-     * Extends edilen methodun icerigini degistirerek alt
+    /**
+     * Extends edilen (miras alinan) methodun icerigini degistirerek alt
        classlarda (sub class) kullanabiliriz.
      * Override edilecek methodlarin ikisininde ayni olmasi gerekiyor.
      * Diger class'dan alinan methodu eziyoruz.
-
      */
 
     public static void main(String[] args) {
 
         Cocuk nesne = new Cocuk();
-        nesne.yemek();
-        nesne.haberlesme();
-        nesne.sadeceDedenin();
+        nesne.yemek();//cocuk hamburger yiyiyor
+        nesne.haberlesme();//Baba posta yoluyla haberlesiyor
+        nesne.sadeceDedenin();//Dedeninki
     }
 
 }
@@ -40,7 +39,7 @@ class Baba extends Dede{
 
 class Dede {
     public void yemek(){
-        System.out.println("kuzuyu cevirirler");
+        System.out.println("dede kuzuyu cevirir.");
     }
     public void haberlesme() {
         System.out.println("Guvercin ile haberlesme");

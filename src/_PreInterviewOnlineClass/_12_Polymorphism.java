@@ -1,7 +1,7 @@
 package _PreInterviewOnlineClass;
 
 public class _12_Polymorphism {
-    /*
+    /**
         Bir nesnenin birden fazla farkli nesneymis gibi davranabilmesi
         Classlar miras aldiklari classin tum ozelliklerini tasidigi icin miras alinan classtan miras alan
         class nesnesi olusturulabilir.

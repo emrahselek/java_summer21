@@ -8,20 +8,20 @@ public class _10_Encapsulation {
         3- Inheritance
         4- Polymorphism
 
+
         Encapsulation --> Data Saklama
-        Disariya aktarmak istemedigimiz degiskeni 'private' yapariz.
-        private --> Sadece class icerisinden erisilebilir.
-        Encapsulationda okuma ve yazma islemleri yapabilmek icin getter setter methodlarini kullanmamiz gerekiyor.
-        getter methodlarinda sadece okuma islemi yapilabilir.
-        setter methodlarinda ise yazma yani guncelleme islemi yapilabilir.
+        Disariya aktarmak istemedigimiz degiskeni 'private' yapariz. boylelikle sadece o class da degiskenler okunabilir.
+        Encapsulation'da okuma ve yazma islemleri yapabilmek icin getter setter methodlarini kullanmamiz gerekiyor.
+        "getter" methodlarinda sadece okuma islemi yapilabilir. ve return'u vardir.
+        "setter" methodlarinda ise yazma yani guncelleme islemi yapilabilir. ve return yoktur. "this" kullanilir.
      */
 
     public static void main(String[] args) {
         Ogretmen1 nesne = new Ogretmen1();
 
         nesne.setBrans("Man");
-        System.out.println(nesne.getBrans());
-        System.out.println(nesne.getDogumTarihi());
+        System.out.println(nesne.getBrans());//Man
+        System.out.println(nesne.getDogumTarihi());//1988
     }
 }
 

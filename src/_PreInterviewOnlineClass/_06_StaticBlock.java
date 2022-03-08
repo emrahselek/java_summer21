@@ -13,12 +13,12 @@ public class _06_StaticBlock {
 }
 class Araba13 {
     //java static olan tum degerleri hafizaya almis oluyor.
-    static int hiz = 200;
+    static int hiz = 83;
     static String renk = "Mavi";
     int vites = 5;
 
     static {
-        hiz = 250;
+        hiz = 650;
 
     }
 }
