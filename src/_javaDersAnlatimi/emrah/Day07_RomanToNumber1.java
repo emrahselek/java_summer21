@@ -20,6 +20,8 @@ public class Day07_RomanToNumber1 {
         numbersMap.put('M', 1000);
 
         String roman = "MCML";
+        // IndexNumber's value  <   Previous IndexNumber's value
+        // then use just index number value.
 
         int result = 0;
         for (int i=0; i<roman.length(); i++) {
