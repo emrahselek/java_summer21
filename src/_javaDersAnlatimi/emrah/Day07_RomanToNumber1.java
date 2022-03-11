@@ -20,13 +20,10 @@ public class Day07_RomanToNumber1 {
 
         int result = 0;
         for (int i = 0; i < roman.length(); i++) {
-            char ch = roman.charAt(i); //--> Current roman Character
-
-            if (i > 0 && numbersMap.get(ch) > numbersMap.get(roman.charAt(i - 1))) {
-                result = result + numbersMap.get(ch) - 2 * numbersMap.get(roman.charAt(i - 1));
-                //                       m - 2 * c
+            if (i > 0 && numbersMap.get(roman.charAt(i)) > numbersMap.get(roman.charAt(i - 1))) {
+                result = result + numbersMap.get(roman.charAt(i)) - 2 * numbersMap.get(roman.charAt(i - 1));
             } else
-                result = result + numbersMap.get(ch);
+                result = result + numbersMap.get(roman.charAt(i));
         }
         return result;
     }
