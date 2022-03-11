@@ -1,79 +1,45 @@
 package _javaDersAnlatimi.emrah;
-// Program to convert Roman
-// Numerals to Numbers
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Day07_RomanToNumber1 {
-    // This function returns
-    // value of a Roman symbol
-    int value(char r)
-    {
-        if (r == 'I')
-            return 1;
-        if (r == 'V')
-            return 5;
-        if (r == 'X')
-            return 10;
-        if (r == 'L')
-            return 50;
-        if (r == 'C')
-            return 100;
-        if (r == 'D')
-            return 500;
-        if (r == 'M')
-            return 1000;
-        return -1;
-    }
 
-    // Finds decimal value of a
-    // given roman numeral
-    int romanToDecimal(String str)
-    {
-        // Initialize result
-        int res = 0;
 
-        for (int i = 0; i < str.length(); i++)
-        {
-            // Getting value of symbol s[i]
-            int s1 = value(str.charAt(i));
+    public static int romanToInteger(String roman) {
 
-            // Getting value of symbol s[i+1]
-            if (i + 1 < str.length())
-            {
-                int s2 = value(str.charAt(i + 1));
+        Map<Character, Integer> numbersMap = new HashMap<>();
+        numbersMap.put('I', 1);
+        numbersMap.put('V', 5);
+        numbersMap.put('X', 10);
+        numbersMap.put('L', 50);
+        numbersMap.put('C', 100);
+        numbersMap.put('D', 500);
+        numbersMap.put('M', 1000);
 
-                // Comparing both values
-                if (s1 >= s2)
-                {
-                    // Value of current symbol
-                    // is greater or equalto
-                    // the next symbol
-                    res = res + s1;
-                }
-                else
-                {
-                    // Value of current symbol is
-                    // less than the next symbol
-                    res = res + s2 - s1;
-                    i++;
-                }
-            }
-            else {
-                res = res + s1;
-            }
+
+        int result = 0;
+        for (int i = 0; i < roman.length(); i++) {
+            char ch = roman.charAt(i); //--> Current roman Character
+
+            if (i > 0 && numbersMap.get(ch) > numbersMap.get(roman.charAt(i - 1))) {
+                result = result + numbersMap.get(ch) - 2 * numbersMap.get(roman.charAt(i - 1));
+                //                       m - 2 * c
+            } else
+                result = result + numbersMap.get(ch);
         }
-
-        return res;
+        return result;
     }
 
-    // Driver Code
-    public static void main(String args[]) {
-        Day07_RomanToNumber1 ob = new Day07_RomanToNumber1();
+    public static void main(String[] args) {
+        String romanNumber = "MCML";
+        int numericalNumber = romanToInteger(romanNumber);
 
-        // Considering inputs given are valid
-        String str = "MCMIV";
-        System.out.println("Integer form of Roman Numeral"
-                + " is "
-                + ob.romanToDecimal(str));
+        System.out.println("Roman number is :" + numericalNumber);
+        System.out.println("Roma num : " + romanNumber);
+
+        System.out.println();
+
     }
+
 }
