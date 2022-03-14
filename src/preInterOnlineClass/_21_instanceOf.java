@@ -1,6 +1,6 @@
 package preInterOnlineClass;
 
-public class _S21_instanceOf {
+public class _21_instanceOf {
     public static void main(String[] args) {
 
         Integer sayi = 20;

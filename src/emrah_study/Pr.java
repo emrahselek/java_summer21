@@ -6,22 +6,30 @@ public class Pr {
 
     public static void main(String[] args) {
 
-        int[] arr = {0, 0, 1, 4, 0, 4, 5, 0, 8, 9};
-        System.out.println("1. Array: " + Arrays.toString(arr));
+        int[] arr = {2,0,0,5,0,9,1};
+        System.out.println(Arrays.toString(arr));
 
-        int[] brr = new int[arr.length];
+//        int[] brr = new int[arr.length];
+//        System.out.println(Arrays.toString(brr));
 
-        int up = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != 0) {
-                brr[up] = arr[i];//assign, change
+        int up=0;
+        for (int i=0; i<arr.length; i++){
+            if (arr[i]!=0){
+                arr[up]=arr[i];
                 up++;
             }
         }
-        System.out.println("3. Array: " + Arrays.toString(brr));
+        int zero=arr.length-up;
+        System.out.println(zero);
+        for (int i=0; i<zero; i++){
+            arr[arr.length-1-i] = 0;
+        }
+
+        System.out.println(Arrays.toString(arr));
+
+
 
 
     }
-
 
 }
