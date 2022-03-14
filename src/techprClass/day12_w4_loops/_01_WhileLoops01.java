@@ -15,7 +15,7 @@ public class _01_WhileLoops01 {
 		// WHILE LOOP
 		int i=1;
 		while(i<5) {
-			System.out.println("emrah");
+			System.out.println("emrah_study");
 			i++;
 		}
 		
