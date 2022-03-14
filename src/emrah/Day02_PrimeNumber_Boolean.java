@@ -10,9 +10,7 @@ public class Day02_PrimeNumber_Boolean {
 
         int intox = scan();
         boolean istrue = primeNumberMth(intox);
-
         System.out.println(istrue);
-
     }
 
     public static int scan() {
@@ -37,7 +35,6 @@ public class Day02_PrimeNumber_Boolean {
         } else {
             sonuc = false;
         }
-
         return sonuc;
 
     }

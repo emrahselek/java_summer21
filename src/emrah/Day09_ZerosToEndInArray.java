@@ -12,8 +12,10 @@ public class Day09_ZerosToEndInArray {
     public static void main(String[] args) {
 
         int[] arr = {3, 0, 4, 2, 0};
-        System.out.println(Arrays.toString(arr));
+        System.out.println("1.Array: " + Arrays.toString(arr));
+
         int[] brr = new int[arr.length];
+        System.out.println("2.Array: " + Arrays.toString(brr));
 
         int idx = 0;
         for (int i = 0; i < arr.length; i++){
@@ -22,7 +24,7 @@ public class Day09_ZerosToEndInArray {
                 idx ++;
             }
         }
-        System.out.println(Arrays.toString(brr));
+        System.out.println("3.Array: " + Arrays.toString(brr));
 
 
     }
