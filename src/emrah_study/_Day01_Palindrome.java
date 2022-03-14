@@ -2,7 +2,7 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class Day01_Palindrome {
+public class _Day01_Palindrome {
     // Palindrome is any string or int value that reads the same backward as forward.
     // madam -> madam
     // 12321 -> 12321

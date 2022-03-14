@@ -1,6 +1,6 @@
 package emrah_study;
 
-public class Day08_ReverseString {
+public class _Day08_ReverseString {
 
 //Write a Java Program to reverse a string
 
