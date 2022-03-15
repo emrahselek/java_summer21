@@ -1,10 +1,11 @@
-package preInterview_Course;
+package preInterview_Course_Hamza;
 
 public class _21_instanceOf {
     public static void main(String[] args) {
 
         Integer sayi = 20;
-        boolean durum= sayi instanceof Integer;// sayi degiskeni Integer'dan mi olustuurlmus mudur? diye sorgulariz
+        // "sayi" degiskeni Integer'den mi olusturulmus mudur? diye sorgulariz
+        boolean durum= sayi instanceof Integer;
         System.out.println(durum);
 
         // instanceof olayini genelde object olusturuken kullaniyoruz.

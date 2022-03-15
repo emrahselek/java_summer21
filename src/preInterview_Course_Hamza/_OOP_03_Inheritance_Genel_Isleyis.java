@@ -1,4 +1,4 @@
-package preInterview_Course;
+package preInterview_Course_Hamza;
 
 public class _OOP_03_Inheritance_Genel_Isleyis {
     /**
