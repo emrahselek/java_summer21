@@ -2,7 +2,7 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion01 {
+public class InterviewQuestion01_Reverse {
 
 	//Write a Java Program to reverse a string
 

@@ -2,10 +2,8 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion03 {
-
+public class InterviewQuestion03_Fibonacci {
 	public static void main(String[] args) {
-		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("How many fibonacci number do you want to see?");
 		int number = scan.nextInt();
@@ -26,7 +24,5 @@ public class InterviewQuestion03 {
 			fibo2 = fibonacci;
 			System.out.print(fibonacci + " ");
 		}
-
 	}
-
 }

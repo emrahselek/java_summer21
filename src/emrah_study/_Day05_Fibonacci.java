@@ -8,7 +8,6 @@ public class _Day05_Fibonacci {
     // The Formula of Fibonacci Number is "Fn = Fn-1 + Fn-2"
 
     public static void main(String[] args){
-
         int range = 7;// 0.1.1.2.3.5.8
 
         int fibo1=0;
@@ -28,9 +27,7 @@ public class _Day05_Fibonacci {
 }
 
 class Fibonacci_Method {
-
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
         System.out.println("How many fibonacci number do you want to see?");
         int range = scan.nextInt();
@@ -51,8 +48,6 @@ class Fibonacci_Method {
             fibo2 = fiboN;
             System.out.print(fiboN + " ");
         }
-
     }
-
 }
 

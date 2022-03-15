@@ -23,6 +23,7 @@ public class _12_SingletonClass {
                      }
 
      */
+
     public static void main(String[] args) {
         System.out.println(Peace.getInstance().sayi);
     }

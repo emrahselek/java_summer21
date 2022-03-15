@@ -38,9 +38,7 @@ public class _Day02_PrimeNumber {
     }
 
 class PrimeNumber_Boolean {
-
     //prime number
-
     public static void main(String[] args) {
 
         int intox = scan();
@@ -71,15 +69,11 @@ class PrimeNumber_Boolean {
             sonuc = false;
         }
         return sonuc;
-
     }
-
 }
 
 class PrimeNumber_Method {
-
     public static void main(String[] args) {
-
         int boom = scanMan();
         primeNumber(boom);
     }
