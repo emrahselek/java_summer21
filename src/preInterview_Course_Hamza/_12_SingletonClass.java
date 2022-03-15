@@ -23,13 +23,9 @@ public class _12_SingletonClass {
                      }
 
      */
-
     public static void main(String[] args) {
-
         System.out.println(Peace.getInstance().sayi);
-
     }
-
 }
 
 class Peace{
@@ -43,11 +39,8 @@ class Peace{
     //Kendi class'imizdan kendimize bir nesne olusturuyoruz.
     private static Peace peaceX = new Peace();
 
-
     // Bir private olan degiskene disardan ulasmak icin getter and setter kullaniyoruz.
     public static Peace getInstance(){ // ->getInstance methodu.
         return peaceX;
     }
-
-
 }
