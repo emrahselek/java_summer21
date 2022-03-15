@@ -1,4 +1,4 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
 public class _08_Override {
     /**

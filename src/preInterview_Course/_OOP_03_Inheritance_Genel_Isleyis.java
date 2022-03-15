@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _11_Inheritance_Genel_Isleyis {
+public class _OOP_03_Inheritance_Genel_Isleyis {
     /**
     Inheritance : Miras Alma islemidir. Bir class'i miras olarak almak istiyorsak EXTENDS kullanmamiz gerekir.
 

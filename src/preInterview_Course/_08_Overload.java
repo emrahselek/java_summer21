@@ -1,5 +1,5 @@
-package preInterOnlineClass;
-public class _07_Overload {
+package preInterview_Course;
+public class _08_Overload {
     /**
         Overload (Overloading) --> Bir methodun imzasi degistirilerek ayni isimde yeni bir method
                                    olusturulmasidir.

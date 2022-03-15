@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _03_For {
+public class _x_For {
     public static void main(String[] args) {
 
         for (int i=0; i<10; i++){

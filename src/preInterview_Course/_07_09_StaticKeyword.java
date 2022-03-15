@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _05_StaticKeyword {
+public class _07_09_StaticKeyword {
     /**
         Static keyword:
         * Hafiza yonetimi icin static keyword kullanilir.

@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _12_Polymorphism {
+public class _OOP_04_Polymorphism {
     /**
         Bir nesnenin birden fazla farkli nesneymis gibi davranabilmesi
         Classlar miras aldiklari classin tum ozelliklerini tasidigi icin miras alinan classtan miras alan

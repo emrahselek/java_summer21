@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _06_StaticBlock {
+public class _07_09_StaticBlock {
 /*
     * Static olarak olusturulan degiskenlere program calismadan once deger atamasi yapmak icin kullanilir.
         static {

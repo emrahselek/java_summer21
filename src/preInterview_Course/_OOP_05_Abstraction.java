@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _13_Abstraction {
+public class _OOP_05_Abstraction {
     /**
         * Abstraction ( Soyutlama ):
         * Abstract classlardan nesne ( Object ) olusturulamaz.

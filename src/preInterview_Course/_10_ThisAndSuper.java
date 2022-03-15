@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _09_ThisAndSuper {
+public class _10_ThisAndSuper {
 
     /**
      this    -> Kendi class'in daki variable kullanmak icin.

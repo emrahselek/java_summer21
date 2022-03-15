@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _10_Encapsulation {
+public class _OOP_01_02_Encapsulation {
     /**
         Nesne Tabanli Programlama Prensipleri (OOP Principles)
         1- Encapsulation

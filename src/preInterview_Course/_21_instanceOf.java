@@ -1,4 +1,4 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
 public class _21_instanceOf {
     public static void main(String[] args) {

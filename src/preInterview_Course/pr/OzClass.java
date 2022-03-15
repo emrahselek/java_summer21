@@ -1,4 +1,4 @@
-package preInterOnlineClass.pr;
+package preInterview_Course.pr;
 
 public class OzClass {
 

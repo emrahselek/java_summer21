@@ -1,12 +1,14 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _02_Object {
+public class _03_04_Object {
     /**
      Class         : Olusturacagimiz nesnenin tasarimi(sablonu).
-     Object (Nesne): Class tasarimindan olusturulan somut nesne.
+     Object(Nesne) : Class tasarimindan olusturulan somut nesne.
 
-     Bir araba fabrikasini dusunelim, bu arabanin oncelikle tasarimi cizilir ve o tasarima uygun bir arac uretilir.
-     Iste CLASS burda bizim tasarimimiz, OBJECT ise o tasarimdan urettigimiz arabadir.
+     Bir araba fabrikasini dusunelim, bu arabanin oncelikle tasarimi cizilir
+     ve o tasarima uygun bir arac uretilir.
+     Iste "CLASS" burda bizim tasarimimiz,
+     "OBJECT" ise o tasarimdan urettigimiz arabadir.
      Araba class'indan bir nesne olusturdugumuzda, artik elimizde somut bir Araba vardir.
      NEW kelimesi ile belirli bir class'tan nesne olusturabiliriz.
      */
@@ -15,7 +17,6 @@ public class _02_Object {
         CarDesign honda = new CarDesign();
         System.out.println(honda.color);
         honda.run();
-
     }
 }
 

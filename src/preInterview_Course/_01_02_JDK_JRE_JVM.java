@@ -1,6 +1,6 @@
-package preInterOnlineClass;
+package preInterview_Course;
 
-public class _01_JDK_JRE_JVM {
+public class _01_02_JDK_JRE_JVM {
 
     public static void main(String[] args) {
 
