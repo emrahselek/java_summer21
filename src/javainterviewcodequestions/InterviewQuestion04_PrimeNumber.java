@@ -2,16 +2,13 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion04 {
-
+public class InterviewQuestion04_PrimeNumber {
 	public static void main(String[] args) {
-		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a positive integer to check if it is prime or not");
 		int number = scan.nextInt();
 		primeCalculator(number);
         scan.close();
-
 	}
 	
 	public static void primeCalculator(int number) {
@@ -34,8 +31,5 @@ public class InterviewQuestion04 {
 		}else {
 			System.out.println("Enter a positive integer");
 		}
-		
-
 	}
-
 }

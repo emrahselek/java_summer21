@@ -25,14 +25,11 @@ public class _Day09_ZerosToEndInArray {
             }
         }
         System.out.println("3.Array: " + Arrays.toString(brr));
-
     }
 }
 
 class ZeroToEndInArrayItself {
-
     public static void main(String[] args) {
-
         int[] arr = {2,0,0,5,0,9,1};
         System.out.println(Arrays.toString(arr));
 
