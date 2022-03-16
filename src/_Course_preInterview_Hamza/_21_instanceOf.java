@@ -1,4 +1,4 @@
-package preInterview_Course_Hamza;
+package _Course_preInterview_Hamza;
 
 public class _21_instanceOf {
     public static void main(String[] args) {

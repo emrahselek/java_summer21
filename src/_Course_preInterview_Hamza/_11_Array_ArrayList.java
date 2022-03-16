@@ -1,4 +1,4 @@
-package preInterview_Course_Hamza;
+package _Course_preInterview_Hamza;
 import java.util.ArrayList;
 public class _11_Array_ArrayList {
     /**
