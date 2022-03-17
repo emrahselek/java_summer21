@@ -27,7 +27,7 @@ public class _OOP_02_Encapsulation {
 class Araba3 {
     private String brand = "Toyota";
     private int price = 12000;
-    private int maxHiz=200;
+    private int maxHiz = 200;
 
     public void setBrand(String one) {
         this.brand = one;
@@ -41,11 +41,14 @@ class Araba3 {
         return price;
     }
 
-    public void setHiz(int gelenHiz){
-        maxHiz=gelenHiz;
+    public void setHiz(int gelenHiz) {
+        //maxHiz=gelenHiz;
+        if (gelenHiz < 250) {
+            maxHiz = gelenHiz;
+        }
     }
 
-    public int getHiz(){
+    public int getHiz() {
         return maxHiz;
     }
 

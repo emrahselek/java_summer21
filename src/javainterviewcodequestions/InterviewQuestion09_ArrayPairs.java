@@ -1,6 +1,6 @@
 package javainterviewcodequestions;
 
-public class InterviewQuestion09 {
+public class InterviewQuestion09_ArrayPairs {
 	
 	/*
 	  From a given array find all pairs whose sum is a given number
