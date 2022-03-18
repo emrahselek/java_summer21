@@ -7,7 +7,7 @@ public class _18_Final {
     * Variable -> Degiskenin degeri degistirlemez.
     * Method   -> Method override edilemez.
     * Class    -> Class miras alinamaz.
-    * Constructor-> final key kullanmazsin const. ile.
+    * Constructor-> final key kullanilmaz.
 
      */
 
