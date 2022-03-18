@@ -1,6 +1,6 @@
 package _Course_preInterview_Hamza;
 
-public class _01_02_JDK_JRE_JVM {
+public class _01_JDK_JRE_JVM {
 
     public static void main(String[] args) {
 
