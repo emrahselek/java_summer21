@@ -1,6 +1,6 @@
 package _Course_preInterview_Hamza;
 
-public class _03_04_Object {
+public class _03_Object {
     /**
      Class         : Olusturacagimiz nesnenin tasarimi(sablonu).
      Object(Nesne) : Class tasarimindan olusturulan somut nesne.

@@ -1,6 +1,6 @@
 package javainterviewcodequestions;
 
-public class InterviewQuestion16 {
+public class InterviewQuestion16_InvertedHalfPyramid {
 	
 	/*
 	  	Ask user to enter the number of lines of a inverted half pyramid.

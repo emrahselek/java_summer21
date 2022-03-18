@@ -25,19 +25,12 @@ public class InterviewQuestion10 {
 		Map<String, Integer> numOfWords = new HashMap<>();// {                                   }
 		
 		for(String w : wordsList) {
-			
 			if(numOfWords.containsKey(w)) {
-				
 				numOfWords.put(w, numOfWords.get(w)+1);
-				
 			}else {
-				
 				numOfWords.put(w,1);
-				
 			}
 		}
 		System.out.println(numOfWords);
-
 	}
-
 }

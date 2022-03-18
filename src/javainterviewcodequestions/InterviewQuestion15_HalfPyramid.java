@@ -1,6 +1,6 @@
 package javainterviewcodequestions;
 
-public class InterviewQuestion15 {
+public class InterviewQuestion15_HalfPyramid {
 	
 	/*
 	  	Ask user to enter the number of lines of a half pyramid.
