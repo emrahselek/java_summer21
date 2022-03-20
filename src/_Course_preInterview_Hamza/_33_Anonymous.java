@@ -8,7 +8,6 @@ public class _33_Anonymous {
                 2) Diger bir ozellik ise bir classdaki methodu baska classda
                 override yaparak kullanmak icin bu anonymou'u kullaniriz.
 
-
      */
 
     public static void main(String[] args) {
