@@ -1,6 +1,6 @@
 package _Course_preInterview_Hamza;
 
-public class _42_FaktoriyelBulma {
+public class _42_Question_FaktoriyelBulma {
     /*
          6 -> 6*5*4*3*2*1 = 720
      */

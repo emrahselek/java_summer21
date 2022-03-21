@@ -1,6 +1,6 @@
 package _Course_preInterview_Hamza;
 
-public class _43_BinarySearch {
+public class _43_Question_BinarySearch {
     public static void main(String[] args) {
         int[] array = {2,7,9,15,20,22,25,30,40};
         int index = binarySearch(array, 7);//aradigimiz sayi: 25, index de bize aradigimiz sayinin indexsini vercek
