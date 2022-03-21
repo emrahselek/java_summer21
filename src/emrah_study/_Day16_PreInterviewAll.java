@@ -1,5 +1,8 @@
 package emrah_study;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class _Day16_PreInterviewAll {
@@ -98,6 +101,28 @@ class x05_Even$Odd {
             System.out.println("Number is ODD");
         }
         sc1.close();
+    }
+}
+
+class x08_ReverseString {
+    public static void main(String[] args) {
+       /*
+       Given a list of Integers 1, 2, 3, 4, 5, 6,100,200,333....etc.
+       remove all values greater than 100.
+       (1, 2, 3, 4, 5, 6.100.200.333....vb. Tamsayıların bir listesi verildi.
+       100'den büyük tüm değerleri kaldırın.)
+        */
+
+        int[] listInt = {1, 2, 3, 4, 5, 6, 100, 200, 333};
+        System.out.println(Arrays.toString(listInt));
+
+        List<Integer> newList = new ArrayList<>();
+        for (int i = 0; i < listInt.length; i++) {
+            if (listInt[i] < 101) {
+                newList.add(listInt[i]);
+            }
+        }
+        System.out.println(newList);
     }
 }
 
