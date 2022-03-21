@@ -1,9 +1,6 @@
 package emrah_study;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class _Day16_PreInterviewAll {
 /**
@@ -38,6 +35,11 @@ class x01_ReverseString {
         }
         System.out.println("Orginal String: " + str);
         System.out.println("Reverse String: " + rvr);
+
+        //2.way:
+        StringBuilder sb = new StringBuilder();
+        sb.append(str);
+        System.out.println("StringBuilder: " + sb.reverse());
     }
 }
 
@@ -66,6 +68,7 @@ class x03_UniqueCharacters {
         Ex: unique(“AAABBBCCCDEF”) ==> “DEF”;
          */
 
+        //1.way:
         String str = "AAABBBCCCDEF";
         for (int i = 0; i < str.length(); i++) {
             int flag = 0;
@@ -79,9 +82,50 @@ class x03_UniqueCharacters {
                 System.out.print(str.charAt(i));
             }
         }
+
+        //2.way:
+        List<String> list = new ArrayList<>();
+        list.add("A");
+        list.add("A");
+        list.add("A");
+        list.add("B");
+        list.add("B");
+        list.add("C");
+        list.add("C");
+        list.add("D");
+        list.add("E");
+        list.add("F");
+
+        Set<String> hList = new HashSet<>();
+
+        for (String a: list) {
+            hList.add(a);
+        }
+
+        System.out.println(hList);
+        for (int i=0;i<hList.size();i++) {
+
+            String element = list.get(i);
+            list.remove(element);
+            if (list.contains(element)) {
+                hList.remove(element);
+            }
+        }
+        System.out.println(hList);
     }
 }
 
+
+class x04_Concat2Array {
+    public static void main(String[] args) {
+        /*
+        Write a return method that can concate two arrays (İki diziyi birleştirebilen bir dönüş yöntemi yazın)
+         */
+
+
+    }
+
+}
 
 class x05_Even$Odd {
     public static void main(String[] args) {
@@ -93,7 +137,7 @@ class x05_Even$Odd {
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter a number for checking Even or Odd");
         int num = sc1.nextInt();
-        System.out.println("Number: "+num);
+        System.out.println("Number: " + num);
 
         if (num % 2 == 0) {
             System.out.println("Number is EVEN");
@@ -104,11 +148,76 @@ class x05_Even$Odd {
     }
 }
 
+
+class x06_RemoveDuplicate {
+    public static void main(String[] args) {
+        /*
+        Write a return method that can remove the duplicated values from String
+            (Dize’den yinelenen değerleri kaldırabilecek bir metod yazın)
+            Ex: removeDup(“AAABBBCCC”) ==> ABC
+
+         */
+        String str="AAABBBCCC";
+        WhitCollec(str);
+        whitSub(str);
+    }
+
+    //1.way:
+    private static void WhitCollec(String str) {
+        String arr[]=str.split("");
+        System.out.println(Arrays.toString(arr));
+        Set<String> set=new HashSet<>();
+        for (int i = 0; i <str.length()-1 ; i++) {
+            set.add(arr[i]);
+        }
+        System.out.println(" set "+set.toString());
+    }
+
+    //2.way:
+    private static void whitSub(String str) {
+        String cont="";
+        for (int i = 0; i <str.length()-1 ; i++) {
+            if (!cont.contains(str.substring(i,i+1))){
+                cont+=str.substring(i,i+1);
+            }
+        }
+        System.out.println(" uniqu "+cont);
+    }
+}
+
+class x07_PrimeTest {
+    public static void main(String[] args) {
+        /*
+        7-Write a method that can check if a number is prime or not
+        (Bir sayının asal olup olmadığını kontrol eden bir metot yazınız.)
+        Prime Numbers : 2 3 5 7 11 13 17
+        */
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please enter a number: ");
+        int num = scan.nextInt();
+        System.out.println("Is " +num + " prime? " +isPrime(num));
+    }
+
+    public static boolean isPrime (int num){
+        if(num<=1){
+            return  false;
+        }else{
+            for (int i = 2; i <num/2 ; i++) {
+                if(num%i == 0){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}
+
 class x08_ReverseString {
     public static void main(String[] args) {
        /*
        Given a list of Integers 1, 2, 3, 4, 5, 6,100,200,333....etc.
-       remove all values greater than 100.
+       remove all values greater than 10.
        (1, 2, 3, 4, 5, 6.100.200.333....vb. Tamsayıların bir listesi verildi.
        100'den büyük tüm değerleri kaldırın.)
         */
@@ -117,6 +226,7 @@ class x08_ReverseString {
         System.out.println(Arrays.toString(listInt));
 
         List<Integer> newList = new ArrayList<>();
+
         for (int i = 0; i < listInt.length; i++) {
             if (listInt[i] < 101) {
                 newList.add(listInt[i]);
