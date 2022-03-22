@@ -146,6 +146,7 @@ class x05_Even$Odd {
         Write a method which can identifies given number is even or odd
         (Verilen sayının çift veya tek olduğunu tanımlayabilecek bir yöntem yazın)
          */
+
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter a number for checking Even or Odd");
         int num = sc1.nextInt();
