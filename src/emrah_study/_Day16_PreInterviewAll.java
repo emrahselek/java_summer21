@@ -115,7 +115,6 @@ class x03_UniqueCharacters {
     }
 }
 
-
 class x04_Concat2Array {
     public static void main(String[] args) {
         /*
