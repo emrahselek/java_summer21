@@ -2,7 +2,7 @@ package _Course_preInterview_Hamza;
 
 public class _27_Thread {
     /*
-      * Thread: Bir is parcacigi diyebilirs. Thread sayesinde
+      * Thread: Bir is parcacigi diyebilir. Thread sayesinde
       ayni anda birden fazla is yapilabilir.Yani ayni anda iki
       for loop dongusunu calistirabiliriz.
 
@@ -23,8 +23,8 @@ public class _27_Thread {
 }
 
 class Calistir extends Thread {
-    // extend Thread yerine asagidakinide kullanabilirsin.Aynidir.
-    // class Calistir implements Runnable {
+    // extend Thread yerine asagidakinide kullanabilirsin.Aynidir;
+    // class Calistir implements Runnable {}
     public String isim;
 
     public Calistir(String gelenIsim) {

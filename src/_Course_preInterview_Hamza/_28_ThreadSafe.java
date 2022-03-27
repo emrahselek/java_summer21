@@ -35,7 +35,6 @@ public class _28_ThreadSafe {
         System.out.println(sayac.sayi);// sonuc: 20000 olur. Ama sycho. kullanmazsa
                                        // eger her sefirnde rakamlar degisiyor
 
-
     }
 }
 
