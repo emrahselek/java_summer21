@@ -1,6 +1,6 @@
 package _Course_preInterview_Hamza;
 
-public class _14_is_aANDhas_a {
+public class _14_IS_AandHAS_A {
     public static void main(String[] args) {
         /**
          is-a:

@@ -9,20 +9,15 @@ public class _Day17_UncheckExceptionHandle {
 
         // Try block for exceptions
         try {
-
             // Forcefully trying to access and print
             // element/s beyond indexes of the array
-
             System.out.println(a[5]);
         }
-
         // Catch block for catching exceptions
         catch (ArrayIndexOutOfBoundsException e) {
-
             // Printing display message when index not
             // present in a array is accessed
-            System.out.println(
-                    "Out of index please check your code");
+            System.out.println("Out of index please check your code");
         }
     }
 }
