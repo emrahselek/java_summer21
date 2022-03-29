@@ -25,41 +25,6 @@ public class _Day16_PreInterviewAll {
  */
 }
 
-class x01_ReverseString {
-    public static void main(String[] args) {
-        //1-Reverse String (String tersine cevirme)
-        String str = "BEST";
-        String rvr = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            rvr = rvr + str.charAt(i);
-        }
-        System.out.println("Orginal String: " + str);
-        System.out.println("Reverse String: " + rvr);
-
-        //2.way:
-        StringBuilder sb = new StringBuilder();
-        sb.append(str);
-        System.out.println("StringBuilder: " + sb.reverse());
-    }
-}
-
-class x02_ReverseInteger {
-    public static void main(String[] args) {
-        //2-Reverse integer (Integer I tersine cevirme)
-        int num = 123456789;
-        int reversed = 0;
-        System.out.println("Original Number: " + num);
-
-        while (num != 0) {
-            int digit = num % 10;//get last from num with % remainder
-            reversed = reversed * 10 + digit;
-            num /= 10;//remove last digit from num
-        }
-        System.out.println("Reversed Number: " + reversed);
-
-    }
-}
-
 class x03_UniqueCharacters {
     public static void main(String[] args) {
         /*

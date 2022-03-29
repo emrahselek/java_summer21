@@ -2,11 +2,12 @@ package _Course_preInterview_Hamza;
 
 public class _33_Anonymous {
     /*
-     Anonymous: 1) Abstract yada interface gibi nesne olusturamiyacagimiz
-                ama ona ragmen olusturmak istedigimiz durumlarda kullaniyoruz.
-                Anonymous yardimiyla nesneler olusturulabilir.
-                2) Diger bir ozellik ise bir classdaki methodu baska classda
-                override yaparak kullanmak icin bu anonymou'u kullaniriz.
+        Anonymous:
+        1) Abstract yada interface gibi nesne olusturamiyacagimiz
+        ama ona ragmen olusturmak istedigimiz durumlarda kullaniyoruz.
+        Anonymous yardimiyla nesneler olusturulabilir.
+        2) Diger bir ozellik ise bir classdaki methodu baska classda
+        override yaparak kullanmak icin bu anonymous'u kullaniriz.
 
      */
 

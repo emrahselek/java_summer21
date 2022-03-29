@@ -10,8 +10,9 @@ public class _12_SingletonClass {
 
      * Singleton Class Olusturmak icin:
         1- Constructor'i private yapiyoruz:
-                     private Peace(){
-                     }
+                    public class Peace{
+                    private Peace(){ }
+                    }
 
         2- Daha sonra ayni class icerisinde private ve static bir nesne olusturuyoruz:
                     private static Peace peaceX = new Peace();
