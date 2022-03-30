@@ -1,11 +1,7 @@
 package emrah_study;
 
-public class Pr implements DoubleWar{
+public class Pr{
 
 
 }
 
-interface DoubleWar{
-
-
-}

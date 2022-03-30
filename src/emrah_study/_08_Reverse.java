@@ -1,9 +1,12 @@
 package emrah_study;
 
 public class _08_Reverse {
-
+    /***
+     1) Write a Java Program to reverse a STRING
+     2) Write a Java Program to reverse a NUMBER
+     3) Write a Java Program to reverse just LETTERS in string
+     */
 }
-
 class ReverseString {
     //Write a Java Program to reverse a string
     public static void main(String[] args) {
