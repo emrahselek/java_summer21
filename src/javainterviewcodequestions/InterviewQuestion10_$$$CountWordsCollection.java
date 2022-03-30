@@ -2,9 +2,9 @@ package javainterviewcodequestions;
 
 import java.util.*;
 
-public class InterviewQuestion10 {
+public class InterviewQuestion10_$$$CountWordsCollection {
 	
-	/*
+	/**
 	  Count the words in a String one by one
 	  String is "Ali came to school and Ayse came to school"
 	  Ali=1, came=2, to=2, school=2, and=1, Ayse=1
@@ -16,7 +16,7 @@ public class InterviewQuestion10 {
 		String words[] = str.split(" ");
 		System.out.println(Arrays.toString(words));
 		
-		List<String> wordsList = new ArrayList<String>();
+		List<String> wordsList = new ArrayList<>();
 		for(String w : words) {
 			wordsList.add(w.replaceAll("\\W", ""));
 		}

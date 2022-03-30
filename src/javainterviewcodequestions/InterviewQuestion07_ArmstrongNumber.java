@@ -2,7 +2,7 @@ package javainterviewcodequestions;
 
 import java.util.Scanner;
 
-public class InterviewQuestion07 {
+public class InterviewQuestion07_ArmstrongNumber {
 	
 	/*
 	 	A number is called an Armstrong number if it equals to the sum of the cube of its every digit.
@@ -19,7 +19,7 @@ public class InterviewQuestion07 {
 		int sumOfCubes = 0;
 		int temp = n;
 		int digit = 0; 
-		
+		//123
 		while(n>0) {
 			digit = n%10;
 			sumOfCubes = sumOfCubes + digit*digit*digit;
@@ -33,7 +33,5 @@ public class InterviewQuestion07 {
 		}
 		
 		scan.close();
-
 	}
-
 }

@@ -7,6 +7,7 @@ public class _01_Reverse {
      3) Write a Java Program to reverse just LETTERS in string
      */
 }
+
 class ReverseString {
     //Write a Java Program to reverse a string
     public static void main(String[] args) {
@@ -65,11 +66,12 @@ class ReverseNumber {
 
 class ReverseLetterInString {
     public static void main(String[] args) {
-        String reverse = "The best Number 554488andWHERE123";
-        System.out.println("original string: " + reverse);
-        System.out.println("reversed letter: " + reverseOnlyLetters(reverse));
+        String reverse = "orcun1232fazli12222man";
+        System.out.println(reverseOnlyLetter(reverse));
+
     }
-    public static String reverseOnlyLetters(String s) {
+
+    public static String reverseOnlyLetter(String s) {
         int i = 0;
         int j = s.length() - 1;
         StringBuilder sb = new StringBuilder(s);
@@ -86,10 +88,13 @@ class ReverseLetterInString {
             }
             i++;
             j--;
+
         }
         return sb.toString();
     }
+
     public static boolean isAlphabet(char char1) {
         return (char1 >= 'a' && char1 <= 'z' || char1 >= 'A' && char1 <= 'Z');
     }
+
 }

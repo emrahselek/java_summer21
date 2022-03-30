@@ -9,7 +9,7 @@ import java.util.Scanner;
 	    Ask user to enter array elements.
 	*/
 
-public class InterviewQuestion05 {
+public class InterviewQuestion05_BiggestAndSmallArray {
 	
 	public static void main(String[] args) {
 		
@@ -18,7 +18,7 @@ public class InterviewQuestion05 {
 		int len = scan.nextInt();
 		
 		int arr[] = new int[len];
-		
+
 		System.out.println("Enter " + len + " array elements");
 		for(int i=0; i<len; i++) {
 			arr[i] = scan.nextInt();
@@ -33,5 +33,4 @@ public class InterviewQuestion05 {
 
 		scan.close();
 	}
-
 }
