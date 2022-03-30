@@ -1,7 +1,7 @@
 package emrah_study;
 
-public class _08_Reverse {
-    /***
+public class _01_Reverse {
+    /**
      1) Write a Java Program to reverse a STRING
      2) Write a Java Program to reverse a NUMBER
      3) Write a Java Program to reverse just LETTERS in string
