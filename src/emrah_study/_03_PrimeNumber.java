@@ -2,25 +2,25 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class _Day02_PrimeNumber {
+public class _03_PrimeNumber {
 
         public static void main(String[] args) {
             /**
-             Prime number is divided by 1 and itself. and just positive whole number.
-             Prime Numbbe = Mutlak sayi
+             Prime number is divided by 1 and itself. And just positive whole number. Like 0-1-2-3-5-7-11..
+             Prime Number = Mutlak sayi
 
              #Conditions:
-             must be bigger than 0,
-             not zero,
-             not negative number,
-             0 is PN,
-             just divide by 1 and itself
+             * must be bigger than 0,
+             * not zero,
+             * not negative number,
+             * 0 is PN,
+             * just divide by 1 and itself
 
             */
 
             int mynumber= 10;
-            int mycount=0;
 
+            int mycount=0;
             for(int i=2; i<mynumber; i++){
                 if(mynumber % i == 0){
                     mycount++;

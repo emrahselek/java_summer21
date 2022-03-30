@@ -1,6 +1,6 @@
 package emrah_study;
 
-public class _Day04_Review {
+public class _05_Review {
 
     public static void main(String[] args){
         palindrome();

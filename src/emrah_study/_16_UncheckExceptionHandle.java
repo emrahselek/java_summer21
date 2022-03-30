@@ -1,6 +1,6 @@
 package emrah_study;
 
-public class _Day17_UncheckExceptionHandle {
+public class _16_UncheckExceptionHandle {
 
     // Main Driver Method
     public static void main(String[] args) {

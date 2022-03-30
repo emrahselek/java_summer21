@@ -1,5 +1,5 @@
 package emrah_study;
-/*
+     /**
 	 	Ebay Interview Question
 	 	Put all zeros to end in an integer array
 	 	{3, 0, 4, 2, 0} ==> {3, 4, 2, 0, 0}
@@ -8,7 +8,7 @@ package emrah_study;
 
 import java.util.Arrays;
 
-public class _Day09_ZerosToEndInArray {
+public class _09_ZerosToEndInArray {
     public static void main(String[] args) {
 
         int[] arr = {3, 0, 4, 2, 0};

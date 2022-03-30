@@ -1,6 +1,6 @@
 package emrah_study;
 
-public class _Day14_InvertedHalfPyramid {
+public class _14_InvertedHalfPyramid {
 	/*
 	  	Ask user to enter the number of lines of a inverted half pyramid.
 	  	Type a program to create the inverted half pyramid.

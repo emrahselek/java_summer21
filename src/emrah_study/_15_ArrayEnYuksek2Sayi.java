@@ -2,7 +2,7 @@ package emrah_study;
 /*
     Array icerisindeki en yuksek iki sayiyi bulan java kodu yaziniz.
  */
-public class _Day15_ArrayEnYuksek2Sayi {
+public class _15_ArrayEnYuksek2Sayi {
     public static void main(String[] args) {
 
         int[] array = { 2,7,10,50,15,1};

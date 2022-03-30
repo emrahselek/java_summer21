@@ -2,10 +2,12 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class _Day01_Palindrome {
-    // Palindrome is any string or int value that reads the same backward as forward.
-    // madam -> madam
-    // 12321 -> 12321
+public class _02_Palindrome {
+    /**
+     Palindrome is any string or int value that reads the same backward as forward.
+     madam -> madam  ............   12321 -> 12321
+     */
+
     public static void main(String[] args) {
 
         //1.way
@@ -46,7 +48,7 @@ public class _Day01_Palindrome {
     public static void palindrome(String entry){
         String reverse2="";
         for(int i=entry.length()-1; i>=0; i--){
-            reverse2 = reverse2 + entry.charAt(i);
+            reverse2 += entry.charAt(i);
         }
         if(entry.equals(reverse2)){
             System.out.println(entry + "  is a palindrome");

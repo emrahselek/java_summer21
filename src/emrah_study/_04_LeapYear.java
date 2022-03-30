@@ -2,7 +2,7 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class _Day03_LeapYear {
+public class _04_LeapYear {
 
     public static void main(String[] args){
 

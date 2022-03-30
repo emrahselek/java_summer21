@@ -10,7 +10,7 @@ The maximum difference between two elements of the said array elements
 10
  */
 import java.util.Arrays;
-public class _Day13_Find_Maximum_Difference_Between_Two_Elements {
+public class _13_Find_Maximum_Difference_Between_Two_Elements {
     public static void main(String[] args) {
         int maxValue= Integer.MIN_VALUE;
         int[] arr={1,2,-50,0,8,50};

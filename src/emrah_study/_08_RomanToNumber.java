@@ -3,7 +3,7 @@ package emrah_study;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _Day07_RomanToNumber {
+public class _08_RomanToNumber {
     //convert a roman number to integer(numerical number)
     public static void main(String[] args){
         Map<Character, Integer> numbersMap = new HashMap<>();

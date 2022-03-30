@@ -2,7 +2,7 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class _Day10_SwapTwoNumbers {
+public class _10_SwapTwoNumbers {
     public static void main(String[] args) {
         // write a java program to swap two numbers
 

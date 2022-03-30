@@ -1,6 +1,6 @@
 package emrah_study;
 
-public class _Day12_ArrayPairs {
+public class _12_ArrayPairs {
     /*
       From a given array find all pairs whose sum is a given number
       {4, 6, 5, -10, 8, 5, 20} ==> 10

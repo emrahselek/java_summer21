@@ -9,7 +9,7 @@ package emrah_study;
                                     * * * *
                                     * * * * *
     */
-public class _Day06_HalfPyramid {
+public class _07_HalfPyramid {
 
     public static void main(String[] args) {
         int rows = 4;

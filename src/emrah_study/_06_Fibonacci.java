@@ -2,7 +2,7 @@ package emrah_study;
 
 import java.util.Scanner;
 
-public class _Day05_Fibonacci {
+public class _06_Fibonacci {
     // Fibonacci's numbers are a sequence of whole numbers where every number is
     // the sum of the previous two numbers. It starts from 0 and 1 as the first two numbers.
     // The Formula of Fibonacci Number is "Fn = Fn-1 + Fn-2"
