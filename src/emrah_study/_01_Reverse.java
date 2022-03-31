@@ -66,9 +66,12 @@ class ReverseNumber {
 
 class ReverseLetterInString {
     public static void main(String[] args) {
-        String reverse = "orcun1232fazli12222man";
+        String reverse = "TheMan who has 9876 number to 123 in COUNTRY";
         System.out.println(reverseOnlyLetter(reverse));
+    }
 
+    public static boolean isAlphabet(char char1) {
+        return (char1 >= 'a' && char1 <= 'z' || char1 >= 'A' && char1 <= 'Z');
     }
 
     public static String reverseOnlyLetter(String s) {
@@ -92,9 +95,4 @@ class ReverseLetterInString {
         }
         return sb.toString();
     }
-
-    public static boolean isAlphabet(char char1) {
-        return (char1 >= 'a' && char1 <= 'z' || char1 >= 'A' && char1 <= 'Z');
-    }
-
 }
